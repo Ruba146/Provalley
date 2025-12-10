@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2024.scenecontroller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image2024/map.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="cafebutton" layoutX="135.0" layoutY="243.0" mnemonicParsing="false" onAction="#switchTocafe" text="cafe" textFill="#593113">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="librarybutton" layoutX="441.0" layoutY="125.0" mnemonicParsing="false" onAction="#switchTolib" text="library" textFill="#b78209">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

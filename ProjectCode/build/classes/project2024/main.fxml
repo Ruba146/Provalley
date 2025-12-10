@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2024.scenecontroller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image2024/home.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="304.0" fitWidth="312.0" layoutX="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image2024/logo2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lin" layoutX="234.0" layoutY="230.0" mnemonicParsing="false" onAction="#switchTologin" prefHeight="42.0" prefWidth="131.0" text="login" textFill="#df6497">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="signup" layoutX="234.0" layoutY="282.0" mnemonicParsing="false" onAction="#switchTosignup" prefHeight="42.0" prefWidth="131.0" text="sign up" textFill="#c649dc">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
