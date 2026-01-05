@@ -54,5 +54,5 @@ This folder contains a simple standalone Java Timer project.
 ---
 
 ##  Author
-**Queen Ruba Aljenedi**  
-Computer Science Stu
+Ruba Aljenedi  
+GitHub: https://github.com/Ruba146
